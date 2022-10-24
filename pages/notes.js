@@ -37,6 +37,7 @@ const Notes = ({notes}) => {
 }
 
 export async function getServerSideProps() {
+    console.log('ssr')
     const notes = await ((await fetch(`${ENDPOINT}/api/notes`)).json())
     return {
         props: {notes},
