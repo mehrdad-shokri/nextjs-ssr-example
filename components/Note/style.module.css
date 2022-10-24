@@ -1,0 +1,16 @@
+.note {
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.title {
+    color: #333;
+    font-weight: bold;
+}
+
+.content {
+    font-size: 14px ;
+    color: #666;
+}
